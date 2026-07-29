@@ -38,3 +38,53 @@ Mutations or structural changes in PTEN can affect its function and are associat
 ```bash
 git clone https://github.com/miraethh/pten-structural-analysis.git
 cd pten-structural-analysis
+```
+
+### 2. Create a virtual environment
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### 3. Install Python dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Install DSSP
+
+DSSP is required for secondary structure analysis.
+
+Using Conda:
+
+```bash
+conda install -c salilab dssp
+```
+
+## Requirements
+
+Python packages:
+
+- Biopython
+- pandas
+- matplotlib
+- requests
+
+External tools:
+
+- DSSP (mkdssp)
+- Conda (recommended for DSSP installation)
+
+## Running the Pipeline
+
+Run the scripts in order:
+
+```bash
+python scripts/01_fetch_sequence.py
+python scripts/02_find_orf.py
+python scripts/03_fetch_structure.py
+python scripts/04_secondary_structure.py
+python scripts/05_visualize.py
+```
