@@ -8,6 +8,20 @@ Analyse the human PTEN sequence and structure using bioinformatics tools.
 - NCBI RefSeq — PTEN mRNA sequence retrieval
 - AlphaFold — predicted PTEN protein structure
 
+## Biological Background
+
+PTEN (phosphatase and tensin homolog) is a tumour suppressor protein involved in regulating the PI3K/AKT signalling pathway, which controls important cellular processes such as growth, survival, and metabolism.
+
+Mutations or structural changes in PTEN can affect its function and are associated with several human diseases, including cancer. This project uses computational bioinformatics approaches to analyse the PTEN sequence and predicted protein structure.
+
+## Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/miraethh/pten-structural-analysis.git
+cd pten-structural-analysis
+
 ## Pipeline
 1. Retrieve PTEN mRNA sequence
 2. Predict PTEN protein sequence from the ORF
