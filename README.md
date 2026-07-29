@@ -21,3 +21,7 @@ Analyse the human PTEN sequence and structure using bioinformatics tools.
 - AlphaFold structure (`PTEN_alphafold.pdb`)
 - DSSP secondary structure data (`PTEN_secondary_structure.csv`)
 - Secondary structure composition plot (`PTEN_secondary_structure_plot.png`)
+
+### Secondary Structure Composition
+
+![PTEN Secondary Structure](results/PTEN_secondary_structure_plot.png)
